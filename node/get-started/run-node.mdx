@@ -1,0 +1,17 @@
+---
+title: 'Run Atoma Node'
+description: 'Learn how to run Atoma Node'
+---
+
+
+
+```bash
+# Build and start all services
+COMPOSE_PROFILES=chat_completions_vllm,embeddings_tei,image_generations_mistralrs docker compose up --build
+
+# Only start one service
+COMPOSE_PROFILES=chat_completions_vllm docker compose up --build
+
+# Run in detached mode
+COMPOSE_PROFILES=chat_completions_vllm,embeddings_tei,image_generations_mistralrs docker compose up -d --build
+```
