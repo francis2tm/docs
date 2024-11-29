@@ -8,7 +8,7 @@ description: 'Onboard your node into the Atoma Network'
 </Warning>
 
 ## Overview
-In this guide, we will onboard your node into the Atoma Network. The process consists of 4 main steps:
+In this guide, we will help you with the node deployment:
 
 1. Install Prerequisites
 2. Deploy Node
@@ -18,17 +18,22 @@ In this guide, we will onboard your node into the Atoma Network. The process con
 
 ## Install Prerequisites
 
-1. [Rust toolchain](https://rustup.rs/)
+1. System Requirements
+```bash
+sudo apt-get install curl git-all cmake gcc libssl-dev pkg-config libclang-dev libpq-dev build-essential
+```
+
+2. [Rust toolchain](https://rustup.rs/)
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-2. [SUI CLI](https://docs.sui.io/guides/developer/getting-started/sui-install)
+3. [SUI CLI](https://docs.sui.io/guides/developer/getting-started/sui-install)
 ```bash
 cargo install --locked --git https://github.com/MystenLabs/sui.git --branch testnet sui --features tracing
 ```
 
-3. [Docker](https://docs.docker.com/engine/install/)
+4. [Docker](https://docs.docker.com/engine/install/)
 
 ## Setup SUI
 
