@@ -39,6 +39,7 @@ cp config.example.toml config.toml
 
 - **models**: List the AI models your node will serve (e.g. `["meta-llama/Llama-3.2-3B-Instruct", "intfloat/multilingual-e5-large-instruct"]`)
 - **database_url**: Set your PostgreSQL connection string using values from `.env` (e.g. `"postgres://<POSTGRES_USER>:<POSTGRES_PASSWORD>@postgres-db:5432/<POSTGRES_DB>"`)
+- **node_small_ids**: Set the list of small IDs for your node (e.g. `[1, 2]`)
 - **node_badges**: Set the list of node badges, where each badge is a tuple of (badge_id, small_id), both values are assigned once the node registers itself (e.g. `["0x268e6af9502dcdcaf514bb699c880b37fa1e8d339293bc4f331f2dde54180600",1]`)
 
 Other configuration values can remain at their defaults.
