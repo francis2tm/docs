@@ -3,8 +3,6 @@ title: 'Interact with Atoma Contract'
 description: 'Learn how to manage tasks, nodes, and compute resources on the Atoma network'
 ---
 
-# Getting Started with Atoma
-
 Atoma testnet parameters:
 
 | Resource | ID |
@@ -30,6 +28,19 @@ cd atoma-contracts/sui/
 
 ## Subscribe to Task
 {/* TODO: Refer all possible tasks here */}
+
+Available tasks:
+
+| Task Small ID  | Model Name                                   |
+| -------------- | -------------------------------------------- |
+| 1              | meta-llama/Llama-3.1-70B-Instruct            |
+| 2              | NousResearch/Hermes-3-Llama-3.1-70B          |
+| 3              | meta-llama/Llama-3.2-3B-Instruct             |
+| 4              | meta-llama/Llama-3.1-8B-Instruct             |
+| 5              | NousResearch/Hermes-3-Llama-3.1-8B           |
+| 6              | NousResearch/Hermes-3-Llama-3.1-405B         |
+| 7              | meta-llama/Llama-3.1-405B-Instruct           |
+| 8              | NousResearch/Hermes-3-Llama-3.1-70B-FP8      |
 
 ```bash
 ./dev/cli db subscribe-node-to-task \

@@ -41,19 +41,19 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://www.atoma.network"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/atoma"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://atomanetwork.medium.com"
     }
   ],
   "navigation": [
@@ -61,39 +61,14 @@
       "group": "Get Started",
       "pages": [
         "documentation/get-started/introduction",
-        "documentation/get-started/quickstart",
+        "documentation/get-started/atoma-basics",
         "documentation/get-started/development"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Get Started",
       "pages": [
-        "documentation/essentials/markdown",
-        "documentation/essentials/code",
-        "documentation/essentials/images",
-        "documentation/essentials/settings",
-        "documentation/essentials/navigation",
-        "documentation/essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    },
-    {
-      "group": "Cloud",
-      "pages": [
-        "cloud/introduction"
+        "cloud/get-started/introduction"
       ]
     },
     {
