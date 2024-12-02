@@ -42,12 +42,20 @@ Available tasks:
 | 7              | meta-llama/Llama-3.1-405B-Instruct           |
 | 8              | NousResearch/Hermes-3-Llama-3.1-70B-FP8      |
 
+1. Subscribe to Task
+
+| Parameter | Description |
+|-----------|-------------|
+| `task-small-id` | The Task small id, referring to a specific task on Atoma |
+| `price-per-compute-unit` | The price to which the node is willing to be paid for its compute |
+| `max-num-compute-units` | The maximum number of compute units that a node is willing to sell per Stack, the higher the better |
+
 ```bash
 ./dev/cli db subscribe-node-to-task \
   --package "0xc05bae323433740c969d8cf938c48d7559490be5f8dde158792e7a0623787013" \
-  --task-small-id 8 \ # The Task small id, referring to a specific task on Atoma
-  --price-per-compute-unit 1 \ # the price to which the node is willing to be paid for its compute
-  --max-num-compute-units 10000000 # the maximum number of compute units that a node is willing to sell per Stack, the higher the better
+  --task-small-id 1 \
+  --price-per-compute-unit 1 \
+  --max-num-compute-units 10000000
 ```
 
 
