@@ -44,9 +44,9 @@
       "url": "node"
     },
     {
-      "name": "Daemon API Reference",
-      "url": "daemon-api-reference",
-      "openapi": "/daemon-api-reference/openapi.yml"
+      "name": "Node API Reference",
+      "url": "node-api-reference",
+      "openapi": "/node-api-reference/openapi.yml"
     }
   ],
   "anchors": [
