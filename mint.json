@@ -35,13 +35,18 @@
       "url": "cloud"
     },
     {
+      "name": "Cloud API Reference",
+      "url": "cloud-api-reference",
+      "openapi": "/cloud-api-reference/openapi.yml"
+    },
+    {
       "name": "Node",
       "url": "node"
     },
     {
       "name": "Daemon API Reference",
       "url": "daemon-api-reference",
-      "openapi": "/node/daemon-api-reference/openapi.yml"
+      "openapi": "/daemon-api-reference/openapi.yml"
     }
   ],
   "anchors": [
@@ -59,6 +64,11 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://atomanetwork.medium.com"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/atoma-network"
     }
   ],
   "navigation": [
