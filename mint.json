@@ -75,23 +75,22 @@
     {
       "group": "Get Started",
       "pages": [
-        "documentation/get-started/introduction",
+        "documentation/get-started/overview",
         "documentation/get-started/atoma-basics",
-        "documentation/get-started/development"
+        "documentation/get-started/compute-layer",
+        "documentation/get-started/trust-and-privacy"
+      ]
+    },
+    {
+      "group": "Atoma Smart Contract",
+      "pages": [
+        "documentation/atoma-smart-contract/atoma-architecture"
       ]
     },
     {
       "group": "Get Started",
       "pages": [
         "cloud/get-started/introduction"
-      ]
-    },
-    {
-      "group": "Endpoints",
-      "pages": [
-        "cloud/endpoint/get",
-        "cloud/endpoint/create",
-        "cloud/endpoint/delete"
       ]
     },
     {
